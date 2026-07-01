@@ -4,36 +4,92 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Trevio Support</title>
-  <style>
-    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #16211c; background: #f7faf8; }
-    main { max-width: 760px; margin: 0 auto; padding: 48px 24px; }
-    h1 { font-size: 36px; margin: 0 0 8px; }
-    h2 { margin-top: 32px; }
-    p, li { font-size: 16px; line-height: 1.6; color: #4d5b54; }
-    a { color: #246b4d; font-weight: 650; }
-    .card { background: white; border: 1px solid #e1e8e4; border-radius: 14px; padding: 20px; margin-top: 20px; }
-  </style>
+  <meta name="description" content="Support page for Trevio, an iOS city trip planner.">
+  <meta property="og:title" content="Trevio Support">
+  <meta property="og:description" content="Support page for Trevio, an iOS city trip planner.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/trevio-icon.png">
+  <link rel="icon" href="assets/trevio-icon.png">
+  <link rel="apple-touch-icon" href="assets/trevio-icon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <p><a href="index.html">Trevio</a></p>
-    <h1>Support</h1>
-    <p>Need help with Trevio? Use the information below to troubleshoot common issues or contact support.</p>
-
-    <div class="card">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:muliukov@gmail.com">muliukov@gmail.com</a></p>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html" aria-label="Trevio home">
+        <img src="assets/trevio-icon.png" alt="" width="44" height="44">
+        <span>Trevio</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html" aria-current="page">Support</a>
+      </nav>
+      <a class="button button-small" href="APP_STORE_URL_HERE">App Store</a>
     </div>
+  </header>
 
-    <h2>Common Issues</h2>
-    <ul>
-      <li>If purchases do not appear, check your network connection and try Restore Purchases.</li>
-      <li>If location features do not work, check iOS Settings and confirm location access is enabled for Trevio.</li>
-      <li>If trip discovery or routes fail, try again later; provider APIs may be temporarily unavailable.</li>
-    </ul>
+  <main>
+    <section class="legal-hero">
+      <div class="container">
+        <p class="eyebrow">Support</p>
+        <h1>Trevio Support</h1>
+        <p class="legal-intro">Need help with Trevio?</p>
+        <p>If you need help, found a bug, or have a question about Trevio, contact us at: <a href="mailto:muliukov@gmail.com">muliukov@gmail.com</a></p>
+      </div>
+    </section>
 
-    <h2>Policies</h2>
-    <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
+    <section class="legal-section">
+      <div class="container legal-card">
+        <h2>What to Include in a Bug Report</h2>
+        <p>Please include:</p>
+        <ul>
+          <li>App version.</li>
+          <li>iPhone or iPad model.</li>
+          <li>iOS version.</li>
+          <li>City or destination.</li>
+          <li>Trip length / number of days.</li>
+          <li>Transport mode.</li>
+          <li>What you expected.</li>
+          <li>What happened instead.</li>
+          <li>Screenshot or screen recording if available.</li>
+        </ul>
+
+        <h2>Purchases and Subscriptions</h2>
+        <p>If Trevio Plus is not active after purchase:</p>
+        <ol>
+          <li>Open Trevio.</li>
+          <li>Go to Settings.</li>
+          <li>Tap Restore Purchases.</li>
+        </ol>
+        <p>Subscriptions and refunds are managed by Apple through your Apple ID.</p>
+        <p>You can manage subscriptions in iOS Settings: Settings → Apple ID → Subscriptions</p>
+
+        <h2>Saved Trips</h2>
+        <p>Free users can save 3 trips.</p>
+        <p>Existing saved trips remain available even without Trevio Plus.</p>
+        <p>Deleting a saved trip does not restore a free saved trip credit.</p>
+
+        <h2>Privacy and Terms</h2>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+        <p><a href="terms.html">Terms of Use</a></p>
+
+        <h2>App Store</h2>
+        <p>Download Trevio on the App Store: <a href="APP_STORE_URL_HERE">APP_STORE_URL_HERE</a></p>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Roman Muliukov</p>
+      <nav aria-label="Footer navigation">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+        <a href="support.html">Support</a>
+      </nav>
+      <p>Contact: <a href="mailto:muliukov@gmail.com">muliukov@gmail.com</a></p>
+    </div>
+  </footer>
 </body>
 </html>

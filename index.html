@@ -3,30 +3,138 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trevio</title>
-  <style>
-    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #16211c; background: #f7faf8; }
-    main { max-width: 760px; margin: 0 auto; padding: 56px 24px; }
-    h1 { font-size: 44px; line-height: 1.05; margin: 0 0 16px; }
-    p { font-size: 18px; line-height: 1.55; color: #4d5b54; }
-    nav { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 32px; }
-    a { color: #246b4d; font-weight: 650; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .card { background: white; border: 1px solid #e1e8e4; border-radius: 14px; padding: 24px; margin-top: 32px; }
-  </style>
+  <title>Trevio — Realistic City Trip Planner</title>
+  <meta name="description" content="Plan realistic city itineraries, follow routes on the go, and save travel memories with Trevio.">
+  <meta property="og:title" content="Trevio — Realistic City Trip Planner">
+  <meta property="og:description" content="Plan realistic city itineraries, follow routes on the go, and save travel memories with Trevio.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/trevio-icon.png">
+  <meta property="og:site_name" content="Trevio">
+  <link rel="icon" href="assets/trevio-icon.png">
+  <link rel="apple-touch-icon" href="assets/trevio-icon.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html" aria-label="Trevio home">
+        <img src="assets/trevio-icon.png" alt="" width="44" height="44">
+        <span>Trevio</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+      </nav>
+      <a class="button button-small" href="APP_STORE_URL_HERE">App Store</a>
+    </div>
+  </header>
+
   <main>
-    <h1>Trevio</h1>
-    <p>Trevio helps travelers discover places, build practical itineraries, save trips, and keep a travel passport of visited places.</p>
-    <div class="card">
-      <p>Use the links below for app policies and support.</p>
-      <nav>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Trevio Trip Planner</p>
+          <h1>Trevio helps you plan city trips that actually work.</h1>
+          <p class="hero-subtitle">Pick the places you care about, get a realistic day-by-day route, follow it on the go, and keep your travel memories.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="APP_STORE_URL_HERE">Download on the App Store</a>
+            <div class="text-links" aria-label="Legal and support links">
+              <a href="privacy.html">Privacy Policy</a>
+              <a href="terms.html">Terms of Use</a>
+              <a href="support.html">Support</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Trevio app screenshots">
+          <div class="phone-card phone-card-main">
+            <img src="assets/screenshots/day-plan.png" alt="Trevio day plan showing realistic timing, route order and travel estimates.">
+          </div>
+          <div class="phone-card phone-card-secondary">
+            <img src="assets/screenshots/map-view.png" alt="Trevio map view showing a city route with numbered stops.">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="feature-grid">
+          <article class="glass-card">
+            <h2>Build realistic routes</h2>
+            <p>Turn selected places into practical daily plans with timing, travel estimates and route order.</p>
+          </article>
+          <article class="glass-card">
+            <h2>Stay flexible</h2>
+            <p>Edit duration, reorder stops, add custom places, skip stops or continue later.</p>
+          </article>
+          <article class="glass-card">
+            <h2>Follow while exploring</h2>
+            <p>Use Follow mode to move through your day and mark places as visited or skipped.</p>
+          </article>
+          <article class="glass-card">
+            <h2>Keep travel memories</h2>
+            <p>Save visited places, notes and photos in your Travel Passport.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section screenshots-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Screenshots</p>
+          <h2>Designed for real travel days.</h2>
+        </div>
+        <div class="screenshot-gallery">
+          <figure>
+            <img src="assets/screenshots/trip-setup.png" alt="Trip setup screen with destination, date, trip style and transport options.">
+            <figcaption>Set trip style</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/day-plan.png" alt="Day-by-day itinerary screen with timed stops, travel estimates and custom stop controls.">
+            <figcaption>Plan realistic city trips</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/route-plan.png" alt="Route screen showing practical schedules, travel times and realistic pacing.">
+            <figcaption>Route that works</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/map-view.png" alt="Map screen with numbered route pins and day selection.">
+            <figcaption>Map view</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/travel-passport.png" alt="Travel Passport screen with visited places, notes and photos.">
+            <figcaption>Follow mode memories</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section plus-section">
+      <div class="container">
+        <div class="plus-card">
+          <div>
+            <p class="eyebrow">Trevio Plus</p>
+            <h2>Save more trips with Trevio Plus.</h2>
+            <p>Free users can save 3 trips. Trevio Plus unlocks unlimited new saved trips with a monthly subscription, yearly subscription or lifetime unlock. Existing saved trips remain available.</p>
+          </div>
+          <a class="button button-primary" href="APP_STORE_URL_HERE">Download on the App Store</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© 2026 Roman Muliukov</p>
+      <nav aria-label="Footer navigation">
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Use</a>
         <a href="support.html">Support</a>
       </nav>
+      <p>Contact: <a href="mailto:muliukov@gmail.com">muliukov@gmail.com</a></p>
     </div>
-  </main>
+  </footer>
 </body>
 </html>
